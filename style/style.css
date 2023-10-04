@@ -23,3 +23,50 @@ h1 {
 #login-area {
    display: none;
 }
+
+/* Transaction Area */
+
+.deposit {
+    background-color: #6499E9;
+    padding: 15px 10px;
+   
+    width: 120px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+.balance {
+    background-color:#BEFFF7;
+    padding: 15px 10px;
+    width: 120px;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+}
+
+.withdraw {
+    background-color:#5D12D2;
+    padding: 15px 10px;
+    width: 120px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+
+.second-row,  .repo{
+    padding: 20px;
+    margin-top: 70px !important;
+
+    
+}
+.depo-2 {
+   
+    box-shadow: 2px 2px 2px 2px #BEFFF7;
+    border-radius: 5px;
+}
+.depo-1 {
+    box-shadow: 2px 2px 2px 2px #BEFFF7;border-radius: 5px;
+}
+.btn-1  {
+   margin-bottom: 20px !important;
+}
