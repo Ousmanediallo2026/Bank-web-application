@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #A6F6FF;
+}
+.container {
+   margin-top: 10%;
+}
+h1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.submit-area {
+    box-shadow: 5px 5px 5px 5px #A6F6FF;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+
+#login-area {
+   display: none;
+}
