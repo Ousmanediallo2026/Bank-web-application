@@ -1,61 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=Mooli&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
-    background-color: #A6F6FF;
+    background-color: #A6F6FF ;
+    font-family: 'AR One Sans', sans-serif !important;
 }
 .container {
    margin-top: 10%;
+   background-color: #7C81AD;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 4px 4px #2E4374;
 }
 h1 {
     text-align: center;
     padding-bottom: 30px;
+    color: #fff  !important;
 }
 
 .submit-area {
     box-shadow: 5px 5px 5px 5px #A6F6FF;
     padding: 20px 20px;
     border-radius: 5px;
+    color: #fff !important;
 }
 
-#login-area {
-   display: none;
-}
+
 
 /* Transaction Area */
+.center-it {
+    padding: 10px 30px !important;
+}
+
 
 .deposit {
     background-color: #6499E9;
     padding: 15px 10px;
    
-    width: 120px;
+    width: 200px;
     text-align: center;
     border-radius: 5px;
     color: white;
+    
 }
 .balance {
     background-color:#BEFFF7;
     padding: 15px 10px;
-    width: 120px;
+    width: 200px;
     text-align: center;
     border-radius: 5px;
     color: black;
+   
 }
 
 .withdraw {
     background-color:#5D12D2;
     padding: 15px 10px;
-    width: 120px;
+    width: 200px;
     text-align: center;
     border-radius: 5px;
     color: white;
+  
 }
 
 .second-row,  .repo{
     padding: 20px;
     margin-top: 70px !important;
+    gap: 80px;
 
     
 }
@@ -63,10 +78,39 @@ h1 {
    
     box-shadow: 2px 2px 2px 2px #BEFFF7;
     border-radius: 5px;
+    background-color: #BEFFF7;
 }
 .depo-1 {
     box-shadow: 2px 2px 2px 2px #BEFFF7;border-radius: 5px;
+    background-color: #BEFFF7;
+    
 }
 .btn-1  {
    margin-bottom: 20px !important;
+}
+
+.login-area, .transaction-area {
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 765px){
+    .center-it {
+       margin-left: 25% !important;
+       gap: 20px;
+       
+        
+    }
+    /*.deposit, .balance, .withdraw {
+        padding: 10px 150px;
+       
+    }
+    h5, h4 {
+        text-align: center !important;
+        margin-right: 20px !important;
+    } */
+}
+
+#transaction-area {
+    display: none;
 }
